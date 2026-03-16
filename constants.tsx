@@ -4,39 +4,336 @@ import { Project, Service, Testimonial, Tool, WebDevProject, TeamMember } from '
 export const PROJECTS: Project[] = [
   {
     id: '1',
+    title: 'Creative Storytelling',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'X6c8Ttm-Ogo',
+    description: 'Professional color grading and narrative-driven video editing.'
+  },
+  {
+    id: '2',
+    title: 'Cinematic Excellence',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'JvhmuoNJ_Rk',
+    description: 'High-end cinematic production with focus on visual aesthetics.'
+  },
+  {
+    id: '3',
+    title: 'Premium Production',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: '4hZR-MA0WSI',
+    description: 'Expert-level post-production for corporate and brand projects.'
+  },
+  {
+    id: '4',
+    title: 'Visual Arts Export',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'Ixts7YKRW-o',
+    description: 'Creative visual effects and seamless transitions in editing.'
+  },
+  {
+    id: '5',
+    title: 'Digital Narratives',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'o5-J8u7m7TU',
+    description: 'Engaging digital content designed for modern audiences.'
+  },
+  {
+    id: '6',
+    title: 'Motion Design',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'begD4O5biDo',
+    description: 'Dynamic motion graphics and high-impact visual styles.'
+  },
+  {
+    id: '7',
     title: 'Creative Vision',
     category: 'YouTube',
-    thumbnail: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&q=80&w=1200',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'CVnshb9lh3w',
+    description: 'Artistic direction and comprehensive video storytelling.'
+  },
+  {
+    id: '8',
+    title: 'Production Master',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'WGS4gUG7SSY',
+    description: 'Advanced video processing and professional editing workflow.'
+  },
+  {
+    id: '9',
+    title: 'Visual Storytelling',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'r6MoW-v21mE',
+    description: 'Compelling narratives crafted through expert video editing.'
+  },
+  {
+    id: '10',
+    title: 'High-Impact Content',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'cpMdvkhcZNs',
+    description: 'Energetic editing styles for maximum viewer engagement.'
+  },
+  {
+    id: '11',
+    title: 'Creative Reel',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'MXjTCv3F-h0',
+    description: 'Showcase of creative editing techniques and styles.'
+  },
+  {
+    id: '12',
+    title: 'Master Edit',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: '6S1saxPWb5c',
+    description: 'Precision editing and professional-grade final production.'
+  },
+  {
+    id: '13',
+    title: 'Visual Excellence',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'LVcW3P_p6sI',
+    description: 'Focus on high-quality visuals and artistic composition.'
+  },
+  {
+    id: '14',
+    title: 'Narrative Flow',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'LJYQfFKVD6E',
+    description: 'Smooth sequence building and compelling narrative flow.'
+  },
+  {
+    id: '15',
+    title: 'Creative Vision',
+    category: 'YouTube',
+    thumbnail: '',
     videoUrl: '',
     youtubeId: 'vXezw_O1qIE',
     description: 'Stunning visual storytelling and creative editing.'
   },
   {
-    id: '2',
-    title: 'Story-telling',
+    id: '16',
+    title: 'Digital Experience',
     category: 'YouTube',
-    thumbnail: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1200',
+    thumbnail: '',
     videoUrl: '',
-    youtubeId: 'X6c8Ttm-Ogo',
-    description: 'High-impact short-form content with explosive energy.'
+    youtubeId: 'l958Y5pHjCY',
+    description: 'Modern digital editing for high-end online platforms.'
   },
   {
-    id: '3',
+    id: '17',
+    title: 'Artistic Edit',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'LcM3XMYhI4g',
+    description: 'Unique artistic approach to video editing and grading.'
+  },
+  {
+    id: '18',
+    title: 'Pro Storytelling',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'QhMxZNVVrRo',
+    description: 'Professional storytelling through expert video assembly.'
+  },
+  {
+    id: '19',
+    title: 'Creative Flow',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'ARzSHlxQUxM',
+    description: 'Dynamic editing flow with creative visual elements.'
+  },
+  {
+    id: '20',
+    title: 'Impactful Narrative',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'iCGTHTw0-F8',
+    description: 'Strong narrative creation through precise video editing.'
+  },
+  {
+    id: '21',
+    title: 'Visual Masterclass',
+    category: 'YouTube',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: '4V6YBMPzV18',
+    description: 'Demonstrating advanced video editing and post-production.'
+  },
+  {
+    id: '22',
+    title: 'Dynamic Short',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'oDRXhbeymLk',
+    description: 'Fast-paced short-form content for social platforms.'
+  },
+  {
+    id: '23',
+    title: 'Engaging Reel',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: '7gmNGMQlZV8',
+    description: 'High-engagement reel with explosive energy.'
+  },
+  {
+    id: '24',
+    title: 'Creative Short',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'XO_tZZs0DjY',
+    description: 'Innovative short-form content with artistic editing.'
+  },
+  {
+    id: '25',
+    title: 'Social Impact',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'g_y_DzFugNE',
+    description: 'Maximum impact editing for short-form social media.'
+  },
+  {
+    id: '26',
+    title: 'Visual Reel',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'VharCWDQxKs',
+    description: 'Focus on visual aesthetics in short-form content.'
+  },
+  {
+    id: '27',
+    title: 'Short Story',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'bsvXLnCxzz8',
+    description: 'Telling compelling stories in under 60 seconds.'
+  },
+  {
+    id: '28',
+    title: 'Modern Reel',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'ajcq-aIPiFg',
+    description: 'Utilizing modern trends in short-form video editing.'
+  },
+  {
+    id: '29',
+    title: 'Explosive Edit',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'SRuIVgU_Yh8',
+    description: 'High-energy editing for short-form video formats.'
+  },
+  {
+    id: '30',
+    title: 'Creative Short',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'NO772U6zPsE',
+    description: 'Unique creative flair in short-form digital content.'
+  },
+  {
+    id: '31',
     title: 'Engaging Reels',
     category: 'Reels',
-    thumbnail: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80&w=1200',
+    thumbnail: '',
     videoUrl: '',
     youtubeId: 'FJIzlnBGXoY',
     description: 'Fast-paced vertical content designed for maximum engagement.'
   },
   {
-    id: '4',
-    title: 'Premium Production',
-    category: 'YouTube',
-    thumbnail: 'https://images.unsplash.com/photo-1600880210819-35b6c02075b9?auto=format&fit=crop&q=80&w=1200',
+    id: '32',
+    title: 'Visual Impact',
+    category: 'Reels',
+    thumbnail: '',
     videoUrl: '',
-    youtubeId: '4hZR-MA0WSI',
-    description: 'Professional-grade video production and editing.'
+    youtubeId: 'LQYD7OeBIzo',
+    description: 'Strong visual impact in concise video formats.'
+  },
+  {
+    id: '33',
+    title: 'Modern Story',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: '9tTuMoSNgZU',
+    description: 'Modern digital storytelling for reel platforms.'
+  },
+  {
+    id: '34',
+    title: 'Narrative Short',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'tnKiv7kxrzU',
+    description: 'Compact narrative building in short-form video.'
+  },
+  {
+    id: '35',
+    title: 'Dynamic Flow',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: '5c-bZ4cV2dI',
+    description: 'Seamless transitions and flow in social media reels.'
+  },
+  {
+    id: '36',
+    title: 'Creative Reel',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'eBtiR7JM4p8',
+    description: 'Innovative creative solutions for short-form video.'
+  },
+  {
+    id: '37',
+    title: 'Master Short',
+    category: 'Reels',
+    thumbnail: '',
+    videoUrl: '',
+    youtubeId: 'aszt9rWHIAM',
+    description: 'Expert-level editing for high-performance social media reels.'
   }
 ];
 

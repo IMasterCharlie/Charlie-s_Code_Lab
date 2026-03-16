@@ -169,32 +169,6 @@ const Projects: React.FC = () => {
                                             </span>
                                         ))}
                                     </div>
-
-                                    {/* Links */}
-                                    <div className="flex gap-3 mt-4">
-                                        {project.liveUrl && (
-                                            <a
-                                                href={project.liveUrl}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-white text-black rounded-lg text-xs font-bold uppercase tracking-wider hover:scale-105 transition-transform"
-                                            >
-                                                <ExternalLink size={14} />
-                                                Live Demo
-                                            </a>
-                                        )}
-                                        {project.githubUrl && (
-                                            <a
-                                                href={project.githubUrl}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="flex-1 flex items-center justify-center gap-2 px-4 py-2 border border-zinc-700 rounded-lg text-xs font-bold uppercase tracking-wider hover:bg-zinc-800 transition-colors"
-                                            >
-                                                <Github size={14} />
-                                                Code
-                                            </a>
-                                        )}
-                                    </div>
                                 </div>
                             </div>
                         ))}
